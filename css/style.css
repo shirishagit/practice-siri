@@ -1,0 +1,152 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.header{
+    display: flex;
+}
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+   color: darkgreen;
+   justify-content: baseline;
+   font-weight: 80;
+   
+}
+.navicon i{
+    padding-left: 70px;
+
+}
+.nav-item ul li{
+    display: flex;
+    justify-content: space-between;
+    display: inline-block;
+    font: 1em sans-serif;
+
+}
+.nav-item ul li a :hover{
+    color: rgb(17, 64, 17);
+   font-size: xx-large;
+   font-display: green;
+
+}
+.submenu ul{
+    position: absolute;
+    width: 500px;
+    background-color: beige;
+    opacity: 0;
+    z-index: -999;
+    transition: all ease 0.5s;
+
+
+}
+.nav-item ul li:hover{
+    z-index: 99;
+    opacity: 1;
+    margin-top: 0;
+}
+.carouselitems h5{
+color: white;
+font-size: xx-large;
+
+}
+.carouselitems p{
+    color: white;
+     font-size: larger;
+    
+}
+.pillsitem .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: white;
+    color: rgb(19, 83, 19);
+    border-bottom: 3px solid green;
+    font-weight: 400;
+    
+}
+.pillsitem{
+    padding: 20px;
+}
+.pillsitem ul li{
+    padding: 50px;
+    color: rgb(19, 83, 19);
+    
+}
+.pillsitem h1{
+    padding-top: 70px;
+    color: darkslategray;
+    font-size: 60px;
+    font-weight: 400;
+}
+.pillsitem p{
+    padding-top: 70px;
+    padding-left: 200px;
+    justify-content: end;
+    color: gray;
+}
+.pillsitem button{
+    border-radius: 20px;
+  
+  
+
+}
+.pillsitem img{
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.line{
+    padding-top: 200px;
+}
+.container{
+    display: flex;
+    box-sizing: border-box;
+   
+    
+}
+.items{
+    border-radius: 3px;
+    padding-left: 30px;
+    position: absolute;
+    border-radius: 15px;
+
+}
+.items img{
+    border-radius: 15px;
+    
+}
+
+ .content{
+  
+ position: fixed;
+  z-index: 1;
+  position: absolute;
+  top: 1950px;
+  left: 600px;
+  background-color: white;
+  height: 800px;
+  width: 600px;
+  border-radius: 10px;
+  padding: 40px;
+  
+}
+.content h1{
+    color: rgb(36, 76, 36);
+    font-size: 50px;
+    font-family:Helvetica, Arial, sans-serif;
+    word-spacing: 0px;
+    
+}
+.content p{
+    color: rgb(126, 124, 124);
+    font-size: 15px;
+    font-family: Helvetica Neue;
+}
